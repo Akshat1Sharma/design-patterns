@@ -1,0 +1,19 @@
+Bridge is a structural design pattern that 
+lets you split a large class or a set of closely 
+related classes into two separate hierarchies—abstraction 
+and implementation—which can be developed independently 
+of each other.
+
+Problem:
+suppose you have a geometric shape class with a pair of subclasses:
+    one is Circle and another is Square
+you want to extend this class hierarchy to incoporatee colors, so you 
+plan to create Red and Blue shape subclass.
+so you will end up creating four subclass.
+
+so the problem occur when we are trying to extend more features it will endup
+creating hierarchy of classes.
+
+The Bridge pattern attempts to solve this problem by switching 
+from inheritance to the object composition.
+

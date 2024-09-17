@@ -1,0 +1,16 @@
+Let's say you have different types of pizzas 
+and you want to add various toppings, such as 
+cheese, pepperoni, mushrooms, etc. If you create 
+a subclass for each combination of pizza and 
+toppings, you will end up with a large number of 
+subclasses like CheesePizza, CheeseAndPepperoniPizza,
+CheeseAndMushroomPizza, etc. This approach 
+becomes difficult to manage
+
+Solution Using Decorator Pattern:
+
+You can use the Decorator Design Pattern to wrap 
+a basic pizza object with various toppings 
+dynamically. This eliminates the need to create 
+multiple subclasses for each combination of 
+toppings.

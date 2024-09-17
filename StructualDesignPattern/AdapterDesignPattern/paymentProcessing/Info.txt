@@ -1,0 +1,6 @@
+A practical use case for the Adapter design 
+pattern can be found in payment processing systems.
+Different payment gateways, such as PayTM and PhonePe, 
+provide their own unique interfaces for processing 
+payments. To integrate these gateways into a single application seamlessly, 
+an adapter can be created.

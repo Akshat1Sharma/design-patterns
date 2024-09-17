@@ -1,0 +1,11 @@
+Problem without Composite Design Pattern:
+Imagine you are creating a system to manage 
+different types of documents in a document 
+hierarchy for a file storage system. 
+There are two types of documents: Files and 
+Folders. A File is a leaf node and cannot contain 
+any other document. A Folder can contain multiple 
+Files or other Folders, forming a tree structure. 
+You need to implement a system to calculate the 
+total size of all documents within a folder 
+(including subfolders).

@@ -1,0 +1,4 @@
+So if you see you need to class and two different method
+to get the size of each file.
+the method to get size is also repeating and it's
+not following DRY(Don't Repeat Yourself) principle.

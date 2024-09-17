@@ -1,0 +1,10 @@
+Imagine you're building a system for handling 
+different types of coffee orders. Each coffee 
+type can have additional ingredients like milk, 
+sugar, or whipped cream, and the cost increases 
+with each added ingredient.
+
+You could handle this by creating a class for 
+each possible combination of coffee types and 
+ingredients, but this would quickly lead to an 
+explosion of classes.
