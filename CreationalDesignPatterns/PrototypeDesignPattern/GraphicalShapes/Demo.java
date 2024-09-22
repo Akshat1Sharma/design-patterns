@@ -1,10 +1,15 @@
-package PrototypeDesignPattern.ShapesExample.shapes;
+package PrototypeDesignPattern.GraphicalShapes;
+
+
 
 import java.util.ArrayList;
 import java.util.List;
 
+import PrototypeDesignPattern.GraphicalShapes.shapes.Circle;
+import PrototypeDesignPattern.GraphicalShapes.shapes.Rectangle;
+import PrototypeDesignPattern.GraphicalShapes.shapes.Shape;
 public class Demo {
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         List<Shape> shapes = new ArrayList<>();
         List<Shape> shapesCopy = new ArrayList<>();
 

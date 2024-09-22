@@ -1,11 +1,9 @@
-package PrototypeDesignPattern.ShapesExample.shapes;
+package PrototypeDesignPattern.GraphicalShapes.shapes;
 
-public class Circle extends Shape{
-
+public class Circle extends Shape {
     public int radius;
 
-    public Circle(){
-
+    public Circle() {
     }
 
     public Circle(Circle target) {

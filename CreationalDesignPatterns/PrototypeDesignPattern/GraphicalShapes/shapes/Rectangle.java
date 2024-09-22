@@ -1,7 +1,6 @@
-package PrototypeDesignPattern.ShapesExample.shapes;
+package PrototypeDesignPattern.GraphicalShapes.shapes;
 
-public class Rectangle extends Shape{
-
+public class Rectangle extends Shape {
     public int width;
     public int height;
 
