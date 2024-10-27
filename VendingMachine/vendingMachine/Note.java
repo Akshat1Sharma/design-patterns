@@ -7,6 +7,7 @@ public enum Note {
     TEN(10),
     TWENTY(20);
 
+    //we deined here final, because the value of enum is initialized only once and immutable.
     private final int value;
 
     Note(int value) {

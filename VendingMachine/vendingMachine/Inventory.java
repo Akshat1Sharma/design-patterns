@@ -7,6 +7,7 @@ public class Inventory {
 
     private final Map<Product, Integer> products;
 
+    //ConcurrentHashMap is used because we can perform all the operations like add, update, remove operations
     public Inventory() {
         products = new ConcurrentHashMap<>();
     }

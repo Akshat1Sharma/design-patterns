@@ -24,6 +24,7 @@ public class VendingMachineDemo {
         vendingMachine.insertCoin(Coin.QUARTER);
         vendingMachine.insertCoin(Coin.QUARTER);
         vendingMachine.insertCoin(Coin.QUARTER);
+        vendingMachine.insertCoin(Coin.QUARTER);
 
         // Insert a note
         vendingMachine.insertNote(Note.FIVE);
